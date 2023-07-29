@@ -65,14 +65,14 @@ import {
       });
     };
   
-    function addMinutesToCurrentTime(minutesToAdd: number): Date {
-      const currentTime = new Date();
-      const updatedTime = new Date(currentTime.getTime() + minutesToAdd * 60000);
-      return updatedTime;
-    }
+    // function addMinutesToCurrentTime(minutesToAdd: number): Date {
+    //   const currentTime = new Date();
+    //   const updatedTime = new Date(currentTime.getTime() + minutesToAdd * 60000);
+    //   return updatedTime;
+    // }
   
-    const minutesToAdd = 5;
-    const updatedTime = addMinutesToCurrentTime(minutesToAdd);
+    // const minutesToAdd = 5;
+    // const updatedTime = addMinutesToCurrentTime(minutesToAdd);
   
     const onFinish = async (values: any) => {
       // Declare redirect_url
@@ -177,8 +177,8 @@ import {
                   </Title>
                   <Alert
                     style={{ marginBottom: "10px" }}
-                    message="Dear Customer,"
-                    description={`Enter your one time promo code and enjoy unlimited data until ${updatedTime}`}
+                    message="Hello there,"
+                    description={`Get your one time promo code and enjoy a sponsored meal at Kookoo!`}
                     type="info"
                   />
                   <Form
