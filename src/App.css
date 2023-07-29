@@ -1,0 +1,94 @@
+.login-form-forgot {
+  float: right;
+}
+.center-div{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inherit-height{
+  height: 100%;
+}
+
+.login-bg{
+  background-image: url(../src/assets/images/Kookoo-logo.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: inherit;
+}
+
+.registration-bg{
+  background-image: url(../src/assets/images/bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.forgotpassword-bg{
+  background-image: url(../src/assets/images/pic1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gap_container{
+  gap: 1rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.thelinks{
+  color: rgb(88, 88, 204);
+}
+
+.thelinks:hover{
+  color:#fd530c
+}
+
+.theStyles{
+  border-color: #fd530c;
+}
+
+.menuText{
+  color: white;
+}
+
+.containers {
+  overflow: auto;
+  white-space: nowrap; 
+  padding: 10px;
+} 
+
+.containers::-webkit-scrollbar {
+  width: 30px;
+}
+
+/* a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+}
+a:hover{
+  background-color: #f2d3c7 ;
+}	 */
+
+.menuText :hover{
+  color: #fd530c;
+}
+
+.bg-white{
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  padding:15px;
+}
+
+.box-shadow{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
